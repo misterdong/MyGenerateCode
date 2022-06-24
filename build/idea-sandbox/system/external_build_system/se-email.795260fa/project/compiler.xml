@@ -1,0 +1,14 @@
+<project>
+  <component name="ExternalCompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="se-email" target="1.8" />
+      <module name="se-email-api" target="1.8" />
+      <module name="se-email-dependencies" target="1.8" />
+      <module name="se-email-domain" target="1.8" />
+      <module name="se-email-intf" target="1.8" />
+      <module name="se-email-listener" target="1.8" />
+      <module name="se-email-scheduler" target="1.8" />
+      <module name="se-email-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

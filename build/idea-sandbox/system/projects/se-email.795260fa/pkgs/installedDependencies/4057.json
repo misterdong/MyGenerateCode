@@ -1,0 +1,89 @@
+{
+    "fileHashCode": 4057,
+    "sha256": "95acdcd74891c01235a608425ac126d5e2a66822d12a29d6ea05d30bf5f4072a",
+    "projectName": "se-email-listener",
+    "dependencies": [
+        {
+            "coordinates": {
+                "groupId": "com.se",
+                "artifactId": "se-email-domain",
+                "version": "0.0.0-SNAPSHOT"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "com.peppa.common",
+                "artifactId": "peppa-mq-console",
+                "version": "1.2.0-SNAPSHOT"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "com.se",
+                "artifactId": "se-email-intf",
+                "version": "1.1.4-QA-SNAPSHOT"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "commons-beanutils",
+                "artifactId": "commons-beanutils",
+                "version": "1.9.3"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "com.peppa.common",
+                "artifactId": "peppa-service-gray",
+                "version": "1.0-SNAPSHOT"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "org.springframework.boot",
+                "artifactId": "spring-boot-starter-test"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "org.testng",
+                "artifactId": "testng",
+                "version": "7.0.0"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "org.powermock",
+                "artifactId": "powermock-core",
+                "version": "2.0.4"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "org.powermock",
+                "artifactId": "powermock-api-mockito2",
+                "version": "2.0.4"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "org.powermock",
+                "artifactId": "powermock-module-testng",
+                "version": "2.0.4"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "org.jacoco",
+                "artifactId": "org.jacoco.agent",
+                "version": "0.8.4"
+            },
+            "scope": "test"
+        }
+    ]
+}

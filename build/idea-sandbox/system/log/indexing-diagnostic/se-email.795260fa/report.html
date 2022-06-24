@@ -1,0 +1,102 @@
+<html><head><title>Indexing diagnostics of &#39;se-email&#39;</title><style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script></head><body><div class="aggregate-report-content"><h1>Project name</h1>se-email<div><h1>Indexing history</h1><table class="centered-text"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Hover for details</caption><thead><tr><th colspan="6">Time</th><th colspan="6">Files</th><th rowspan="2">IDE</th></tr><tr><th>Started</th><th>Total</th><th>Scanning</th><th>Indexing</th><th>Content loading</th><th>Finished</th><th>Providers</th><th>Scanned</th><th>Shared indexes (w/o content loading)</th><th>Scheduled for indexing</th><th>Shared indexes (content loaded)</th><th>Total indexed (shared indexes included)</th></tr></thead><tbody><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-46-22.574.html"><td><strong>changes in: &quot;Module &#39;se-email-domain&#39; (domain)&quot;, &quot;Module &#39;se-email-dependencies&#39; (dependencies)&quot;, &quot;Module &#39;se-email-intf&#39; (intf)&quot;, &quot;Module &#39;se-email&#39; (se-email)&quot;, &quot;Module &#39;se-email-server&#39; (server)&quot;, &quot;Module &#39;se-email-api&#39; (api)&quot;, &quot;Module &#39;se-email-listener&#39; (listener)&quot;, &quot;Module &#39;se-email-scheduler&#39; (scheduler)&quot;, &quot;Library Maven: org.hamcrest:hamcrest-library:1.3&quot;, &quot;Library Maven: javax.annotation:javax.annotation-api:1.3.2&quot; and 340 iterators more</strong><br/>18:46:21 24 6月</td><td>170 ms</td><td>88 ms</td><td>0</td><td>0</td><td>18:46:21 24 6月</td><td>350</td><td>78738</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-46-21.763.html"><td><strong>On project open</strong><br/>18:46:15 24 6月</td><td>6 s 9 ms</td><td>5 s 737 ms</td><td>0</td><td>0</td><td>18:46:21 24 6月</td><td>357</td><td>123643</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-42-00.183.html"><td><strong>changes in: &quot;Module &#39;se-email-listener&#39; (listener)&quot;, &quot;Module &#39;se-email-domain&#39; (domain)&quot;, &quot;Module &#39;se-email-intf&#39; (intf)&quot;, &quot;Module &#39;se-email&#39; (se-email)&quot;, &quot;Module &#39;se-email-dependencies&#39; (dependencies)&quot;, &quot;Module &#39;se-email-api&#39; (api)&quot;, &quot;Module &#39;se-email-scheduler&#39; (scheduler)&quot;, &quot;Module &#39;se-email-server&#39; (server)&quot;, &quot;Library Maven: org.springframework.cloud:spring-cloud-starter-eureka:1.4.6.RELEASE&quot;, &quot;Library Maven: io.zipkin.reporter2:zipkin-sender-amqp-client:2.7.14&quot; and 340 iterators more</strong><br/>18:41:59 24 6月</td><td>146 ms</td><td>71 ms</td><td>0</td><td>0</td><td>18:41:59 24 6月</td><td>350</td><td>78738</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-41-59.600.html"><td><strong>On project open</strong><br/>18:41:53 24 6月</td><td>6 s 62 ms</td><td>5 s 647 ms</td><td>74 ms</td><td>16 ms</td><td>18:41:59 24 6月</td><td>357</td><td>123643</td><td>0</td><td>1</td><td>0</td><td>1</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-34-28.056.html"><td><strong>On refresh of 2 files</strong><br/>18:34:27 24 6月</td><td>39 ms</td><td>&lt; 1 ms</td><td>7 ms</td><td>&lt; 1 ms</td><td>18:34:28 24 6月</td><td>1</td><td>2</td><td>0</td><td>2</td><td>0</td><td>2</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-34-27.945.html"><td><strong>changes in: &quot;Module &#39;se-email-domain&#39; (domain)&quot;, &quot;Module &#39;se-email-api&#39; (api)&quot;, &quot;Module &#39;se-email-dependencies&#39; (dependencies)&quot;, &quot;Module &#39;se-email&#39; (se-email)&quot;, &quot;Module &#39;se-email-intf&#39; (intf)&quot;, &quot;Module &#39;se-email-listener&#39; (listener)&quot;, &quot;Module &#39;se-email-server&#39; (server)&quot;, &quot;Module &#39;se-email-scheduler&#39; (scheduler)&quot;, &quot;JDK 1.8&quot;, &quot;Library Maven: com.vip.vjtools:vjkit:1.0.8&quot; and 341 iterators more</strong><br/>18:33:37 24 6月</td><td>50 s 606 ms</td><td>7 s 746 ms</td><td>42 s 782 ms</td><td>5 s 147 ms</td><td>18:34:27 24 6月</td><td>351</td><td>123421</td><td>0</td><td>76902</td><td>0</td><td>76902</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-33-30.848.html"><td><strong>Reindex requested by project root model changes</strong><br/>18:32:53 24 6月</td><td>37 s 634 ms</td><td>6 s 857 ms</td><td>30 s 757 ms</td><td>2 s 894 ms</td><td>18:33:30 24 6月</td><td>8</td><td>45112</td><td>0</td><td>44213</td><td>0</td><td>44213</td><td>IC-213.5744.223</td></tr><tr class="linkable-table-row" href="diagnostic-2022-06-24-18-32-53.220.html"><td><strong>On project open</strong><br/>18:32:50 24 6月</td><td>3 s 74 ms</td><td>1 s 227 ms</td><td>1 s 797 ms</td><td>142 ms</td><td>18:32:53 24 6月</td><td>7</td><td>431</td><td>0</td><td>415</td><td>0</td><td>415</td><td>IC-213.5744.223</td></tr></tbody></table></div><div><h1>Scanning to push properties of changed files</h1><table><thead><tr><th>Time</th><th>Reason</th><th>Full duration</th><th>Is cancelled</th><th>Number</th></tr></thead><tbody><tr><td>18:34:28 24 6月</td><td>Push on VFS changes</td><td>&lt; 1 ms</td><td>fully finished</td><td>1</td></tr></tbody></table></div></div></body></html>

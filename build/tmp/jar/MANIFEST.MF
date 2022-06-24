@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Gradle 7.1
+Build-JVM: 11.0.14.1 (Homebrew 11.0.14.1+0)
+Version: 1.0-SNAPSHOT
+Build-Plugin: Gradle IntelliJ Plugin
+Build-Plugin-Version: 1.6.0
+Build-OS: Mac OS X 12.0.1 x86_64
+Build-SDK: IC-2021.3
+

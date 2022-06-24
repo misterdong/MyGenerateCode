@@ -1,0 +1,26 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="213.5744" until-build="213.*" />
+  <id>org.example.MyGererateCode</id>
+  <name>Plugi</name>
+  <vendor email="support@yourcom1pany.com" url="http://www.y2ourcompany.com">YourCompany</vendor>
+  <description>1</description>
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.java</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+  <actions>
+    <!-- Add your actions here -->
+    <!--        <group id="generateCode" popup="true">-->
+    <action id="demo" class="com.dong.action.DemoAction" text="demo" description="111">
+      <add-to-group group-id="EditorPopupMenu" anchor="first" />
+    </action>
+    <!--        </group>-->
+  </actions>
+</idea-plugin>
